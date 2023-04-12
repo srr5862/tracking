@@ -1,0 +1,3 @@
+image_topic: "/rgb/image_raw"
+depth_topic: "/depth_to_rgb/image_raw"
+mm_to_m: true

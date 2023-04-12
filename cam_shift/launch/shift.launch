@@ -1,0 +1,9 @@
+<launch>
+ 
+   
+	<node name="cam_shift" pkg="cam_shift" type="cam_shift">
+		<rosparam file="$(find cam_shift)/config/config.yaml" command="load" />
+		<remap from="/rgb/image_raw" to="/rgb/image_raw"/>
+	</node>
+
+</launch>
